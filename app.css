@@ -1,0 +1,22 @@
+/* Core theme CSS */
+@import '@nativescript/theme/css/core.css';
+@import '@nativescript/theme/css/default.css';
+
+/* Custom styles */
+Page {
+    background-color: #F3F4F6;
+}
+
+TextField {
+    padding: 12;
+    border-width: 1;
+    border-color: #E5E7EB;
+    border-radius: 8;
+    placeholder-color: #9CA3AF;
+}
+
+Button {
+    font-weight: bold;
+    border-radius: 8;
+    padding: 12;
+}
